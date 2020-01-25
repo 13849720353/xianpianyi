@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="bean.QQ" table="t_qq" schema="网上销售">
+        <id name="q_id" column="q_id"/>
+        <property name="q_name" column="q_name"/>
+        <property name="q_price" column="q_price"/>
+        <property name="q_image" column="q_image"/>
+        <property name="qTime" column="q_time"/>
+    </class>
+</hibernate-mapping>

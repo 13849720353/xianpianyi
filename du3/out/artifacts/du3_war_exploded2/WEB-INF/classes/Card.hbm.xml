@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="bean.Card" table="t_card" schema="网上销售">
+        <id name="c_id" column="c_id"/>
+        <property name="c_name" column="c_name"/>
+        <property name="c_price" column="c_price"/>
+        <property name="c_image" column="c_image"/>
+    </class>
+</hibernate-mapping>

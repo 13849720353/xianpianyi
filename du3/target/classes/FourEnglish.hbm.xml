@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="bean.FourEnglish" table="t_fourenglish" schema="网上销售">
+        <id name="f_id" column="f_id"/>
+        <property name="f_name" column="f_name"/>
+        <property name="f_price" column="f_price"/>
+        <property name="f_image" column="f_image"/>
+    </class>
+</hibernate-mapping>

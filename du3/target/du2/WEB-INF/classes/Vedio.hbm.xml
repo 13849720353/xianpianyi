@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="bean.Vedio" table="t_vedio" schema="网上销售">
+        <id name="v_id" column="v_id"/>
+        <property name="v_name" column="v_name"/>
+        <property name="v_price" column="v_price"/>
+        <property name="v_image" column="v_image"/>
+        <property name="v_time" column="v_time"/>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="bean.SixEnglish" table="t_sixenglish" schema="网上销售">
+        <id name="s_id" column="s_id"/>
+        <property name="s_name" column="s_name"/>
+        <property name="s_price" column="s_price"/>
+        <property name="s_image" column="s_image"/>
+    </class>
+</hibernate-mapping>
