@@ -1,0 +1,38 @@
+.cu-card {
+display: block;
+    overflow: hidden;
+
+}
+.cu-item{
+    display: block;
+    background-color: var(--white);
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 30px;
+}
+.bg-img {
+./colorui/main.wxss: 3726background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.shadow-blur {
+./colorui/main.wxss: 656position: relative;
+
+}
+.cardTitle {
+    content: "";
+    position: absolute;
+    width: 60rpx;
+    height: 6rpx;
+    border-radius: 20rpx;
+    background-color: #fff;
+    display: block;
+    top: 60rpx;
+    left: 50rpx;
+    transform: skew(10deg, 0deg);
+
+
+}
+
+

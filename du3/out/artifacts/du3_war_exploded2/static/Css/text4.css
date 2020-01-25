@@ -1,0 +1,28 @@
+@charset "UTF-8";
+*{
+    margin:0;
+    padding:0px;
+}
+#max{       /*控制整个网页页面的纵横比*/
+    width:1200px;
+    height:790px;
+    margin:0px auto;
+}
+.re{
+    position:relative;
+}
+ul{
+    list-style-type:none;
+}
+ul>li{
+    width:1200px;
+    height:1000px;
+    position:absolute;
+
+    transition:0.5s;
+    opacity:0;
+}
+ul>li img{    /*控制轮播图 图片大小*/
+    width:1000px;
+    height:800px;
+}

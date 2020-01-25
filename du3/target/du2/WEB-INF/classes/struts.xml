@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+    <constant name="struts.action.excludePattern" value="/static/.*?" />
+
+    <package name="du" extends="struts-default">
+        <action name="four_*" class="fourEnglishAction" method="{1}">
+            <result name="list">/fourList.jsp</result>
+            <result name="findById">/fourDetail.jsp</result>
+            <result name="findById1">/payment.jsp</result>
+        </action>
+
+
+        <action name="six_*" class="sixEnglishAction" method="{1}">
+            <result name="list">/sixList.jsp</result>
+            <result name="findById">/sixDetail.jsp</result>
+            <result name="findById1">/sixPayMent.jsp</result>
+        </action>
+
+
+        <action name="card_*" class="cardAction" method="{1}">
+            <result name="list">/cardList.jsp</result>
+            <result name="findById">/cardDetail.jsp</result>
+            <result name="findById1">/cardPayMent.jsp</result>
+        </action>
+
+        <action name="vedio_*" class="vedioAction" method="{1}">
+        <result name="list">/vedioList.jsp</result>
+        <result name="findById">/vedioDetail.jsp</result>
+        <result name="findById1">/vedioPayMent.jsp</result>
+        </action>
+
+        <action name="qq_*" class="qqAction" method="{1}">
+            <result name="list">/qqList.jsp</result>
+            <result name="findById">/qqDetail.jsp</result>
+            <result name="findById1">/qqPayMent.jsp</result>
+        </action>
+    </package>
+
+
+</struts>

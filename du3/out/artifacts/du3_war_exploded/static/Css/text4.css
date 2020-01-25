@@ -1,0 +1,100 @@
+@charset "UTF-8";
+*{
+    margin:0;
+    padding:0px;
+}
+#max{       /*控制整个网页页面的纵横比*/
+    width:1200px;
+    height:790px;
+    margin:0px auto;
+}
+.re{
+    position:relative;
+}
+ul{
+    list-style-type:none;
+}
+ul>li{
+    width:1200px;
+    height:1000px;
+    position:absolute;
+
+    transition:0.5s;
+    opacity:0;
+}
+ul>li img{    /*控制轮播图 图片大小*/
+    width:1000px;
+    height:800px;
+}
+
+/*轮播图*/
+.focus {
+    position: relative;
+    padding-top: 44px;
+    overflow: hidden;
+}
+
+.focus img {
+    width: 100%;
+}
+
+.focus ul {
+    overflow: hidden;
+    width: 500%;
+    margin-left: -100%;
+}
+
+.focus ul li {
+    float: left;
+    width: 20%;
+}
+
+.focus ol {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    margin: 0;
+}
+
+.focus ol li {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background-color: #fff;
+    margin-right: 5px;
+    list-style: none;
+    border-radius: 2px;
+}
+
+.focus ol li.current {
+    width: 15px;
+}
+
+
+.image-header{
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-top:100%;
+}
+img{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.bannerbox {
+    width:100%;
+    position:relative;
+    overflow:hidden;
+    height:200px;
+}
+.banner {
+    width:3000px; /*图片宽度*/
+    position:absolute;
+    left:50%;
+    margin-left:-1500px; /*图片宽度的一半*/
+}
+
